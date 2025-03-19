@@ -206,14 +206,14 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     border-top: 1px solid rgb(184, 184, 184);
     border-right: 1px solid rgb(184, 184, 184);
     overflow-y: scroll;
     overflow-x: hidden;
 }
 .container1 h2{
-    margin-left: 15px;
+    margin-left: 1px;
     margin-bottom: 40px;
     
 }
@@ -245,14 +245,14 @@ footer a:hover {
     
     
 }
-.container1 ul {
+.container1 li {
     list-style-type: none;
 }
 .Menu{
     width: 100%;
     height: auto;
     margin-top: 120px;
-    
+    margin-left: 3px;
     text-decoration: none;
 }
 
@@ -366,12 +366,16 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    font-size: 20px;
+    font-size: 15px;
     color: #3d3d3d;
     border: 1px solid black;
     border-radius: 5px;
     background-color: transparent;
     
+}
+.dias button a{
+    text-decoration: none;
+    color: grey;
 }
 .Task1{
     background-color: white;
@@ -495,6 +499,59 @@ footer a:hover {
     background: #868686; 
     border-radius: 10px; 
 }
-  
+.footer1{
+    background-color: #fbfcf4; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+   
+    padding-top: 100px;
+    z-index: -1;
+    width: 100%;
+}
+.footer1 a {
+    color: #000000; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    margin-top: 100px;
+}
 
+.footer1 a:hover {
+    color: #4d4d4d; 
+}
+.criar {
+    width: 70px;
+    height: auto;
+    background-color: transparent;
+    margin-left: auto;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 20px;
+   
+   
+}
+.btn-criar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #ffffff;
+    font-size: 40px;
+    text-decoration: 0;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+   
+}
+.btn-criar a{
+   
+}
 
