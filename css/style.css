@@ -169,7 +169,7 @@ footer a:hover {
 .header2{
     width: 100%;
     height: 70px;
-    background-color: aqua;
+    background-color: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,13 +195,27 @@ footer a:hover {
     width: 5%;
     margin-right: 20px;
 }
-.container1{
-    background-color: #eac847;
-    margin-top: 68px;
+.container1 {
+    background-color: wheat;
+    margin: 0;
+    margin-top: 69px;
     position: fixed;
-    width: 15%;
+    width: 10%;
     height: 100%;
     top: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.container1 h2{
+    margin-left: 15px;
+    margin-bottom: 40px;
+    
 }
 .conteudo{
     justify-content: center;
@@ -210,3 +224,277 @@ footer a:hover {
     margin-top: 100px
    
 }
+.tarefas{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    
+    text-decoration: none;
+}
+
+.tarefas ul {
+    
+    list-style-type: none;
+    
+    
+}
+.tarefas ul li {
+    
+    list-style-type: none;
+    
+    
+}
+.container1 ul {
+    list-style-type: none;
+}
+.Menu{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    
+    text-decoration: none;
+}
+
+.alinhar{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+}
+.container1 a{
+    text-decoration: none;
+    color: #555555;
+    
+}
+.container1 .btn-ajuda {
+    background-color: #cc7112;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    
+    
+}
+.mes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfcf4;
+    width: 20%;
+    height: auto;
+    
+}
+.mes button {
+    text-decoration: none;
+    text-align: none;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mes button a {
+    text-decoration: none;
+    text-align: none;
+    border: none;
+    color: #535353;
+    
+    
+    
+}
+.semana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfcf4;
+    width: 20%;
+    height: auto;
+    
+}
+.semana button {
+    text-decoration: none;
+    text-align: none;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.semana button a {
+    text-decoration: none;
+    text-align: none;
+    border: none;
+    color: #535353;
+    
+    
+    
+}
+.dias{
+    background-color: #fbfcf4;
+    width: 70%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
+}.dias button{
+    
+    width: 6%;
+    height: 70%;
+    margin-left:10px ;
+    margin-top: 20px;
+    margin-right:10px ;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+    color: #3d3d3d;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+.Task1{
+    background-color: white;
+    width: 30%;
+    height: 120px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Task1   .titulo{
+    background-color: transparent;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+.Task1 .titulo h2{
+    margin-left: 10px;
+}
+.comanda span{
+   
+
+    
+}
+.comanda{
+    height: 70%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.titulo input{
+    height: 50%;
+    width: 4%;
+    
+}
+.Task2{
+    background-color: white;
+    width: 30%;
+    height: 120px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Task2   .titulo{
+    background-color: transparent;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+.Task2 .titulo h2{
+    margin-left: 10px;
+}
+
+
+
+.Task3{
+    background-color: white;
+    width: 30%;
+    height: 120px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Task3   .titulo{
+    background-color: transparent;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+.Task3 .titulo h2{
+    margin-left: 10px;
+}
+
+
+.Task4{
+    background-color: white;
+    width: 30%;
+    height: 120px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Task4   .titulo{
+    background-color: transparent;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+.Task4 .titulo h2{
+    margin-left: 10px;
+}
+::-webkit-scrollbar {
+    width: 5px;  
+    height: 5px; 
+}
+  
+  
+::-webkit-scrollbar-track {
+    background: wheat; 
+    border-radius: 10px; 
+}
+  
+  
+::-webkit-scrollbar-thumb {
+    background: #868686; 
+    border-radius: 10px; 
+}
+  
+
+
