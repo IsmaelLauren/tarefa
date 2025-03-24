@@ -50,6 +50,10 @@ body{
     margin-right: auto;
     margin-left: 5px;
 }
+.logoname1{
+   
+    margin-left: 5px;
+}
 .menucentral1 a{
     text-decoration: none;
     color: white;
@@ -203,41 +207,44 @@ footer a:hover {
 }
 .header2{
     width: 100%;
-    height: 50px;
-    background-color: wheat;
+    height: 70px;
+    background-color: #35233A;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgb(184, 184, 184);
     position: fixed;
-    top: -1px;
+    top: 0px;
 }
 .menucentral2{
-    width: 70px;
-    height: auto;
+    width: 100%;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
-    
-    
-
-}
-.header2 .logo{
-    
-    margin-top: 7px;
-    
 }
 .opcao1{
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 15px;
     font-family: Verdana;
 }
 .opcao2{
     margin-right: auto;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana;
+}
+.opcao3{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #515151;
     font-size: 15px;
     font-family: Verdana;
 }
@@ -246,9 +253,9 @@ footer a:hover {
     margin-right: 20px;
 }
 .container1 {
-    background-color: wheat;
+    background-color:whitesmoke;
     margin: 0;
-    margin-top: 49px;
+    margin-top: 70px;
     position: fixed;
     width: 10%;
     height: 100%;
@@ -257,7 +264,7 @@ footer a:hover {
     align-items: center;
     text-decoration: none;
     font-size: 15px;
-    border-top: 1px solid rgb(184, 184, 184);
+    
     border-right: 1px solid rgb(184, 184, 184);
     overflow-y: scroll;
     overflow-x: hidden;
