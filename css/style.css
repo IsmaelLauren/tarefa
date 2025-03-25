@@ -255,10 +255,9 @@ footer a:hover {
 .container1 {
     background-color:whitesmoke;
     margin: 0;
-    margin-top: 70px;
+    
     position: fixed;
-    width: 10%;
-    height: 100%;
+    
     top: 0;
     justify-content: center;
     align-items: center;
@@ -266,12 +265,13 @@ footer a:hover {
     font-size: 15px;
     
     border-right: 1px solid rgb(184, 184, 184);
-    overflow-y: scroll;
+   
     overflow-x: hidden;
 }
 .container1 h2{
     margin-left: 1px;
     margin-bottom: 40px;
+    color: #ccc;
     
 }
 .conteudo{
@@ -285,7 +285,7 @@ footer a:hover {
     
     width: 100%;
     height: auto;
-    margin-top: 100px;
+   
     
     text-decoration: none;
 }
@@ -308,8 +308,7 @@ footer a:hover {
 .Menu{
     width: 100%;
     height: auto;
-    margin-top: 120px;
-    margin-left: 3px;
+    
     text-decoration: none;
 }
 
@@ -325,9 +324,9 @@ footer a:hover {
     color: #555555;
     
 }
-.container1 .btn-ajuda {
+.alinhar .btn-ajuda {
     background-color: #cc7112;
-    width: 80%;
+    width: 60%;
     height: 40px;
     text-align: center;
     align-items: center;
@@ -339,8 +338,8 @@ footer a:hover {
     font-size: 16px;
     font-weight: bold;
     display: inline-flex;
-    margin-top: 200px;
-    margin-bottom: 300px;
+    
+    
     
     
 }
@@ -546,22 +545,6 @@ footer a:hover {
 .Task4 .titulo h2{
     margin-left: 10px;
 }
-::-webkit-scrollbar {
-    width: 5px;  
-    height: 5px; 
-}
-  
-  
-::-webkit-scrollbar-track {
-    background: wheat; 
-    border-radius: 10px; 
-}
-  
-  
-::-webkit-scrollbar-thumb {
-    background: #868686; 
-    border-radius: 10px; 
-}
 .footer1{
     background-color: #fbfcf4; 
     color: rgb(0, 0, 0); 
@@ -645,3 +628,80 @@ footer a:hover {
     color: rgb(255, 255, 255);
 }
 
+.sidebar{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background-color: #35233A;
+    
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 0px;
+}
+
+.sidebar a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    display: block;
+    transition: 0.2s;
+}
+
+.side a:hover{
+    background-color: brown;
+}
+
+/* botao para abrir o menu */
+.openbtn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.tarefas span h2{
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Menu span h2{
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tarefas a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.tarefas span li a {
+    text-decoration: none;
+}
+.Menu span li{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tarefas span li{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Menu a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.Menu span li a {
+    text-decoration: none;
+}
