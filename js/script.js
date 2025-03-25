@@ -1,11 +1,12 @@
 
 function abrirMenu(){
-    document.getElementById("meuMenu").style.width = "250px"
+    document.getElementById("meuMenu").classList.toggle('active')
+}
+function abrirPerfil(){
+    document.getElementById("meuPerfil").classList.toggle('active')
 }
 
-function fecharMenu(){
-    document.getElementById("meuMenu").style.width = "0"
-}
+
 
 
 
