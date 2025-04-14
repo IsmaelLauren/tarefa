@@ -57,6 +57,18 @@ body{
    
     margin-left: 5px;
 }
+.logoname12{
+
+}
+.opcao22{
+    
+    margin-left: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana;
+    margin-right: 50px;
+}
 .menucentral1 a{
     text-decoration: none;
     color: white;
@@ -74,6 +86,12 @@ body{
     height: 70px;
     margin-right: auto;
     margin-left: 1220px;
+    
+}
+.logo4{
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
     
 }
 .notificacao{
@@ -824,4 +842,133 @@ footer a:hover {
 }
 .balao a img{
     width: 150px;
+}
+.seting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.principal{
+    width: 50%;
+    background-color: #18FFF9;
+    display: flex;
+    height: 430px;
+    margin-top: 100px;
+}
+.alterar{
+    width: 30%;
+    height: 100%;
+    background-color: #907298;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.alterar p{
+    font-size: 20px;
+    margin: 0;
+    margin-top: -10px;
+}
+.alterar button{
+    background-color: #DC2C2C;
+    border: 0.1px solid black;
+    width: 150px;
+    height: 30px;
+    margin-top: 210px;
+}
+.alterar button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.diferente{
+    width: 70%;
+    height: 100%;
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+}
+.alterar img{
+    width: 130px;
+    margin-top: 20px;
+}
+.nome{
+    width: 100%;
+    height: 30%;
+    background-color: #a7a4a8;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nome h1, p{
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.nome span p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.nome button{
+    background-color: transparent;
+    width: 100px;
+    padding: 5px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.nome button a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.email{
+    width: 100%;
+    height: 30%;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+}
+.email h1,p{
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+}
+.email span p{
+    margin-top: 20px;
+}
+.linguagem{
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.linguagem h1,p{
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;  
+}
+.linguagem span p{
+    margin-top: 20px;
+    padding-bottom: 6px;
+}
+.linguagem button{
+    background-color: transparent;
+    width: 100px;
+    padding: 5px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.linguagem button a{
+    text-decoration: none;
+    color: #000000;
+    
 }
